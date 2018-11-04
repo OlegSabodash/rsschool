@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@font-face{
+    font-family: lato-medium;
+    src: url(../fonts/Lato-Medium.ttf);
+}
+
+@font-face{
+    font-family: lato-light;
+    src: url(../fonts/Lato-Light.ttf);
+}
+
+@font-face{
+    font-family: lato-regular;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+
+@font-face{
+    font-family: lato-semibold;
+    src: url(../fonts/Lato-Semibold.ttf);
+}
+
+@font-face{
+    font-family: MontserratUltraLight;
+    src: url(../fonts/Montserrat-UltraLight.otf);
+}
+
+
+@font-face{
+    font-family: lato-heavy;
+    src: url(../fonts/Lato-Heavy.ttf);
+}
+
+
+@font-face{
+    font-family: lato-bold;
+    src: url(../fonts/Lato-Bold.ttf);
+}
+
+@font-face{
+    font-family: MariardPro-bold;
+    src: url(../fonts/Mariard_Pro-bold.otf);
+}
+
+@font-face{
+    font-family: georgia-italic;
+    src: url(../fonts/georgiai.ttf);
+}
+
+@font-face{
+    font-family: lato-thin;
+    src: url(../fonts/Lato-Thin.ttf);
+}
+@font-face{
+    font-family: lato-black;
+    src: url(../fonts/Lato-Black.ttf);
+}

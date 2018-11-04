@@ -1,0 +1,147 @@
+footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border-bottom: rgba(255, 255, 255, 0.247) 1px solid; 
+    height: 293px;
+    background-image: url(../picture/FooterBG.png);
+    background-repeat: repeat-x;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.logoFoo img{
+    margin-top: 22px;
+    margin-left: 1px; 
+}
+
+.logoFoo{
+    display: flex;
+    width: 78.8%;
+    margin-left: 13.2%;
+    border-bottom: rgba(255, 255, 255, 0.07) 1px solid;
+    height: 74px; 
+}
+.logoFoo nav{
+    display: flex;
+    align-items: center;
+    font-family: lato-medium;
+    justify-content: space-between;
+    font-size: 13px;
+    height: 74px;
+    margin-left: 52.8%;
+    width: 430px;
+}
+.logoFoo a{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.logoFoo a:hover{
+    color: white;
+}
+
+footer .footerInf{
+    display: flex;
+    width: 78.8%;
+    margin-left: 13.2%;
+}
+
+footer .footerInf div{
+    margin-top: 33px;
+    height: 151px;
+}
+
+footer .footerInf .descriptionByDesign{
+    display: flex;
+    flex-direction: column;
+    width: 31.4%;
+    border-right: rgba(255, 255, 255, 0.07) 1px solid;
+    font-family: lato-light;
+    font-size: 15px;
+}
+
+footer .footerInf .descriptionByDesign p{
+    margin-right: 15%;
+    margin-top: 5.2%;
+}
+footer .footerInf .descriptionByDesign p:first-child span:nth-child(2){
+    line-height: 35px;
+}
+
+footer .footerInf .descriptionByDesign p:last-child span:first-child{
+    font-family: lato-bold;
+}
+
+
+
+footer .footerInf .tabs{
+    display: flex;
+    flex-direction: row;
+    width: 42%;
+    border-right: rgba(255, 255, 255, 0.07) 1px solid;
+
+}
+footer .footerInf .tabs .colomOne{
+      margin-top: 21px; 
+      font-family: lato-light;
+      font-size: 15px;
+}
+
+footer .footerInf .tabs .colomOne{
+    margin-left: 21.6%;
+}
+
+footer .footerInf .tabs .colomOne p{
+    margin-bottom: 11px;
+}
+
+footer .footerInf .tabs .colomOne i{
+    margin-right: 8px;
+}
+
+footer .footerInf .tabs .colomTwo{
+    margin-left: 13.6%;
+}
+
+.tabs .colomOne p span.onMousOver,
+.tabs .colomOne i.onMousOver{
+color: white;
+}
+
+footer .footerInf .call{
+    display: flex;
+    padding-left: 7%;
+    flex-direction: column;
+    font-family: lato-light;
+    font-size: 15px;
+    width: 19.4%;
+}
+footer .footerInf .call a{
+    color: rgba(255, 255, 255, 0.3);
+}
+footer .footerInf .call a:hover{
+    color: rgba(255, 255, 255, 1);
+}
+
+footer .footerInf .call p:nth-child(2) i{
+    font-size: 13px;
+}
+footer .footerInf .call p:nth-child(2){
+    margin-top: 12px;
+}
+footer .footerInf .call p:nth-child(2) span{
+    margin-left: 5px;
+    letter-spacing: 0px;
+}
+footer .footerInf .call p:nth-child(3),
+footer .footerInf .call p:nth-child(4){
+    margin-top: 11px;
+}
+footer .footerInf .call .numbForCall {
+    font-family: lato-semibold;
+    font-size: 14px;
+    margin-top: 22px;  
+}
+
+footer .footerInf .call .numbForCall span{
+    margin-left: 13px;
+}
