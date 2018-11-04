@@ -16,18 +16,18 @@ Slider.prototype = {
 	},
 	navigate: function () {
 
-		for (var i = 0; i < this.links.length; ++i) {
-			var link = this.links[i];
+		for (let i = 0; i < this.links.length; ++i) {
+			let link = this.links[i];
 			this.slide(link);
 		}
 	},
 
 	animate: function (slide) {
-		var parent = slide.parentNode;
-		var caption = slide.querySelector(".caption");
-		var captions = parent.querySelectorAll(".caption");
-		for (var k = 0; k < captions.length; ++k) {
-			var cap = captions[k];
+		let parent = slide.parentNode;
+		let caption = slide.querySelector(".caption");
+		let captions = parent.querySelectorAll(".caption");
+		for (let k = 0; k < captions.length; ++k) {
+			let cap = captions[k];
 			if (cap !== caption) {
 				cap.classList.remove("visible");
 			}
@@ -36,13 +36,13 @@ Slider.prototype = {
 	},
 
 	slide: function (element) {
-		var self = this;
+		let self = this;
 		element.addEventListener("click", function (e) {
 			e.preventDefault();
-			var a = this;
+			let a = this;
 			self.addClass(a);
-			var index = parseInt(a.getAttribute("data-slide"), 10) + 1;
-			var currentSlide = self.el.querySelector(".slide:nth-child(" + index + ")");
+			let index = parseInt(a.getAttribute("data-slide"), 10) + 1;
+			let currentSlide = self.el.querySelector(".slide:nth-child(" + index + ")");
 
 			self.wrapper.style.left = "-" + currentSlide.offsetLeft + "px";
 			self.animate(currentSlide);
@@ -63,11 +63,7 @@ Slider.prototype = {
 
 };
 
-let slider = new Slider("#slider")
-// document.addEventListener("DOMContentLoaded", function () {
-// 	var aSlider = new Slider("#slider");
-
-// });
+let slider = new Slider("#slider");
 
 
 let block = document.getElementById("tabs");
@@ -92,6 +88,25 @@ for (let i = 0; i < spans.length; i++)(function(i) {
 		colomTwo.style.left = "0px";
 		is[i].classList.remove("onMousOver");
 	};
+	is[i].onmouseover = function(){
+		is[i].classList.add("onMousOver");
+		spans[i].classList.add("onMousOver");
+		spans[i].style.marginLeft = "14px";
+		colomTwo.style.position = "absolute";
+		colomTwo.style.left = "665px";
+		is[i].classList.add("onMousOver");
+
+	};
+
+	is[i].onmouseout = function(){
+		is[i].classList.remove("onMousOver");
+		spans[i].classList.remove("onMousOver");
+		spans[i].style.marginLeft = "0px";
+		colomTwo.style.position = "static";
+		colomTwo.style.left = "0px";
+		is[i].classList.remove("onMousOver");
+	};
+	
 	
 })(i);
 
