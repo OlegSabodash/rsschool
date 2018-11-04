@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-/* @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"); */
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 @font-face{
     font-family: lato-medium;
     src: url(../fonts/Lato-Medium.ttf);
